@@ -1,0 +1,114 @@
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+    margin: 0px;
+    padding: 0;
+}
+
+p {
+    color: #aaa;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 700;
+}
+
+.main-head {
+    margin: 0 50px 0 50px;
+}
+
+.main-button .ios {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.main-button .mac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.main-button a {
+    margin-bottom: 0;
+}
+
+.ios,
+.mac {
+    border: none;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2),0 6px 20px 0  rgb(0,0,0,0.2);
+}
+
+.ios:hover,
+.mac:hover {
+    font-size: 20px;
+}
+
+.cover {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+}
+
+@media(max-width:768px) {
+    .main-button {
+        flex-direction: column;
+    }
+
+    .main-head .head-text {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+    .disktop {
+        margin: 20px;
+    }
+
+    .disktop .disk-text {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.disk-text {
+    padding: 0 60px 0 50px;
+}
+
+@media(max-width:800px) {
+    .media-icons {
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+    }
+    .footer .row{
+    text-align: center;
+    }
+    .footer .foot-txt p{
+        padding: 10px;
+    }
+    .foot-icon img{
+        padding: 10px;
+    }
+}
+
+.media-icons img {
+    margin: 30px;
+}
+
+.footer {
+    background-color: hsl(213, 20%, 89%);
+    width: 100%;
+}
+
+.footer .foot-log  {
+    width: 50px;
+    height: 50px;
+}
+.footer p{
+    color: hsl(210, 10%, 33%);
+}
